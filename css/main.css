@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .header-container {
@@ -133,5 +136,11 @@
     background: url(../media/UgkvJeOcCrxrUo8XcPXhzA6EsSOS1gyUGUr2ZBpG.jpg);
   }
 }
+
+.wrap-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
 
 /*# sourceMappingURL=main.css.map */
