@@ -165,11 +165,15 @@ main {
   gap: 20px;
 
   .wrap-galelery-1 {
+    width: 25%;
   }
   .wrap-galelery-2 {
+    @extend .wrap-galelery-1
   }
   .wrap-galelery-3 {
+    width: 25%;
   }
   .wrap-galelery-4 {
+    @extend .wrap-galelery-3
   }
 }

@@ -140,7 +140,11 @@
 .wrap-container {
   display: grid;
   grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  gap: 20px;
 }
-
+.wrap-container .wrap-galelery-1 {
+  width: 25%;
+}
 
 /*# sourceMappingURL=main.css.map */
