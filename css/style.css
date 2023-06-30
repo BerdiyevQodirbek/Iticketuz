@@ -1,0 +1,53 @@
+** {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+body {
+  position: relative;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  border-bottom: 1px solid black;
+  justify-content: space-between;
+  height: 65px;
+  width: 100%;
+  background-color: white;
+}
+header .over {
+  margin-left: 250px;
+  display: flex;
+  align-items: center;
+}
+header .over a {
+  padding: 20px;
+  text-decoration: none;
+  border: 1px solid white;
+}
+header .over a:hover {
+  border-bottom: 5px solid darkblue;
+}
+header .search {
+  float: right;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+}
+header .search input {
+  border: none;
+  width: 300px;
+}
+header .search #search {
+  padding-right: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */
