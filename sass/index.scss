@@ -26,14 +26,14 @@
       margin: 0 10px;
       
       span {
-        color: yellow;
+        color: #ffdd00;
       }
 
       span:first-child {
         color: grey;
-        border: 1px solid yellow;
+        border: 1px solid #ffdd00;
         padding: 2px 10px;
-        background-color: yellow;
+        background-color: ye#ffdd00llow;
         border-radius: 5px;
       }
       span:last-child {
@@ -70,7 +70,7 @@
             font-weight: 700;
 
             &:hover {
-            border-bottom: 5px solid yellow;    
+            border-bottom: 5px solid #ffdd00;    
             }
          } 
         }
@@ -104,7 +104,7 @@
                 border: 1px solid;
                 padding: 10px;
                 border-radius: 50%;
-                background-color: yellow;
+                background-color: #ffdd00;
                 border: none;
             }
         }
