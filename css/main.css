@@ -191,7 +191,26 @@ footer .div4 p {
   line-height: 13px;
 }
 footer .yakun {
-  display: block;
+  margin-left: 130px;
+  width: 1256px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+footer .yakun p {
+  font-size: 22px;
+}
+footer .yakun img {
+  width: 30px;
+}
+footer .yakun .img {
+  padding: 20px 0px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  align-items: center;
+  width: 210px;
+  background-color: #ffdd00;
 }
 
 /*# sourceMappingURL=main.css.map */
