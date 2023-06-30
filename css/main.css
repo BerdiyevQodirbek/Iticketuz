@@ -134,4 +134,64 @@
   }
 }
 
+footer {
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+}
+footer .boshfooter {
+  gap: 56px;
+  width: 1256px;
+  margin-left: 130px;
+  display: grid;
+  grid-template-columns: 274px 274px 274px 274px;
+}
+footer .div1 .ii {
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.549);
+  background-color: #ffdd00;
+  padding: 5px 10px;
+  border-radius: 7px 0px 0px 7px;
+}
+footer .div1 span {
+  color: black;
+  font-size: 30px;
+  letter-spacing: 1.7px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+footer .div1 .dot {
+  color: #ffdd00;
+}
+footer .div1 .uz {
+  color: rgba(0, 0, 0, 0.464);
+}
+footer .div1 .pi {
+  margin-bottom: 80px;
+}
+footer .div1 .pi2 {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.558);
+}
+footer .div1 .pi3 {
+  letter-spacing: 1.1px;
+  line-height: 6px;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+footer .div2 h2 {
+  margin-bottom: 28px;
+}
+footer p {
+  line-height: 26px;
+  font-weight: 550;
+  color: rgba(0, 0, 0, 0.597);
+}
+footer .div4 p {
+  line-height: 13px;
+}
+footer .yakun {
+  display: block;
+}
+
 /*# sourceMappingURL=main.css.map */
