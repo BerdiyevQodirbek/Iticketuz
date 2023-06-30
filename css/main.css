@@ -142,6 +142,7 @@
   grid-template-columns: auto auto auto auto;
   justify-content: center;
   gap: 20px;
+  margin-bottom: 50px;
 }
 .wrap-container .wrap-galelery-1 {
   width: 25%;
@@ -196,7 +197,7 @@ footer .div1 .pi2 {
 }
 footer .div1 .pi3 {
   letter-spacing: 1.1px;
-  line-height: 6px;
+  padding: 5px 0;
   color: black;
   font-size: 20px;
   font-weight: 700;
@@ -205,12 +206,12 @@ footer .div2 h2 {
   margin-bottom: 28px;
 }
 footer p {
-  line-height: 26px;
+  padding: 6px 0;
   font-weight: 550;
   color: rgba(0, 0, 0, 0.597);
 }
 footer .div4 p {
-  line-height: 13px;
+  padding: 6px 0;
 }
 footer .yakun {
   margin-left: 130px;
