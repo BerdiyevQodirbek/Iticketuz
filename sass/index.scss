@@ -143,7 +143,32 @@
             right: 20%;
 
         }
-    }
+      }
+        .fixed-button {
+          text-decoration: none;
+            position: fixed;
+            top: 90vh;
+            right: 3vh;
+
+            i {
+              position: relative;
+              font-size: 22px;
+              color: black;
+              background-color: #ffdd00;
+              padding: 15px;
+              border-radius: 50%;
+            }
+            sup {
+              font-weight: 600;
+              position: absolute;
+              top: -7%;
+              right: -7%;
+              color: white;
+              background-color: crimson;
+              padding: 4px 8px;
+              border-radius: 50%;
+            }
+        }
 
     @keyframes b-g {
         0% {background: url(../media/1rNRVmygtiKzZvPpkQkYkrOyeZ8yDGk61FdGqDbD.jpg);}
