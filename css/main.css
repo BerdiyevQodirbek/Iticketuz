@@ -1,5 +1,8 @@
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 .header-container {
@@ -156,6 +159,105 @@
   100% {
     background: url(../media/UgkvJeOcCrxrUo8XcPXhzA6EsSOS1gyUGUr2ZBpG.jpg);
   }
+}
+
+.wrap-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 50px;
+}
+.wrap-container .wrap-galelery-1 {
+  width: 25%;
+}
+.wrap-container .wrap-galelery-2 {
+  width: 25%;
+}
+.wrap-container .wrap-galelery-3 {
+  width: 25%;
+}
+.wrap-container .wrap-galelery-4 {
+  width: 25%;
+}
+
+footer {
+  background-color: #f9f9f9;
+  font-family: sans-serif;
+}
+footer .boshfooter {
+  gap: 56px;
+  width: 1256px;
+  margin-left: 130px;
+  display: grid;
+  grid-template-columns: 274px 274px 274px 274px;
+}
+footer .div1 .ii {
+  font-size: 28px;
+  color: rgba(0, 0, 0, 0.549);
+  background-color: #ffdd00;
+  padding: 5px 10px;
+  border-radius: 7px 0px 0px 7px;
+}
+footer .div1 span {
+  color: black;
+  font-size: 30px;
+  letter-spacing: 1.7px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+footer .div1 .dot {
+  color: #ffdd00;
+}
+footer .div1 .uz {
+  color: rgba(0, 0, 0, 0.464);
+}
+footer .div1 .pi {
+  margin-bottom: 80px;
+}
+footer .div1 .pi2 {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.558);
+}
+footer .div1 .pi3 {
+  letter-spacing: 1.1px;
+  padding: 5px 0;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+footer .div2 h2 {
+  margin-bottom: 28px;
+}
+footer p {
+  padding: 6px 0;
+  font-weight: 550;
+  color: rgba(0, 0, 0, 0.597);
+}
+footer .div4 p {
+  padding: 6px 0;
+}
+footer .yakun {
+  margin-left: 130px;
+  width: 1256px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+footer .yakun p {
+  font-size: 22px;
+}
+footer .yakun img {
+  width: 30px;
+}
+footer .yakun .img {
+  padding: 20px 0px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-around;
+  align-items: center;
+  width: 210px;
+  background-color: #ffdd00;
 }
 
 /*# sourceMappingURL=main.css.map */
